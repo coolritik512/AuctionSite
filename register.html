@@ -8,18 +8,13 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <style>
-      .container{
-        max-width: 500px;
-      }
-    </style>
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container border border-2 border-danger mt-4">
-    <div class="h2 bg-danger text-center">Register</div>
-    <form class="row g-3" action="lab2.html" method="post">
+    <div class="h2 text-center">Register</div>
+    <form class="row g-3" action="login.html" method="get">
       <div class="row-6">
         <label for="inputEmail4" class="form-label">Email/Username</label>
         <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Email">
@@ -37,19 +32,19 @@
 
       <div class="row-12">
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
+          <input class="form-check-input text-btn" type="checkbox" id="gridCheck">
+          <label class="form-check-label text-TC" for="gridCheck">
             Agree To <a href="termsAndConditions.txt">Terms and Conditions</a>
           </label>
         </div>
       </div>
       <div class="row-12">
-        <button type="submit" class="btn btn-primary btn-lg">Register</button>
+        <button type="submit" class="btn btn-primary btn-lg btn-register">Register</button>
         <!-- <button type="submit" class="btn btn-secondary btn-danger">Sign in</button>
               <button type="submit" class="btn btn-secondary btn-sm">Sign in</button> -->
       </div>
     </form>
-    Already a user <a href="home.html">Go to Login</a>
+    <span class="last-line-register">Already a user <a href="login.html">Go to Login</a></span>
   </div>
 
 </body>

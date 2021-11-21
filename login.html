@@ -2,26 +2,24 @@
 <html lang="en">
 
 <head>
+  <meta name="google-signin-client_id"
+    content="1017679186192-sulkaq0reh1uah9ikgko2pn3e0bshpp7.apps.googleusercontent.com">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Auction Website</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <style>
-    .container {
-      max-width: 500px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container border  border-danger mt-4">
-    <div class="h2 bg-info text-center">
-      login form
+    <div class="h2 text-center heading">
+      Login
     </div>
 
-    <form class="row g-3" action="lab2.html" method="post">
+    <form class="row g-3" action="register.html" method="get">
       <div class="row-md-6">
         <label for="inputEmail4" class="form-label">Email</label>
         <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Email">
@@ -35,15 +33,15 @@
       <span class="row-md-6">
         <label for="check"></label>
       </span>
-
-      <div class="row-12">
-        <button type="submit" class="btn btn-primary btn-lg">Sign in</button>
-        <!-- <button type="submit" class="btn btn-secondary btn-danger">Sign in</button>
-              <button type="submit" class="btn btn-secondary btn-sm">Sign in</button> -->
+      <div class="sign-in-button">
+        <div class="row-12"">
+          <button type=" submit" class="btn btn-primary btn-lg btn-sign-in">Sign in</button>
+        </div>
       </div>
-
     </form>
-    Not a User?<a href="register.html">Register here</a>
+    <div class="last-line">
+      Not a User?<a href="register.html">Register here</a>
+    </div>
   </div>
 </body>
 

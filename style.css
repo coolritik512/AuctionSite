@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('bg-image.jpg');
+  background-size: cover;
+}
+.container {
+  max-width: 500px;
+}
+.last-line {
+  position: relative;
+  left: 150px;
+}
+.heading {
+  padding: 0;
+  margin: 0;
+}
+.text-TC {
+  position: relative;
+  left: 80px;
+}
+.text-btn {
+  position: relative;
+  left: 85px;
+}
+.last-line-register {
+  position: relative;
+  left: 125px;
+}
+.btn-register {
+  position: relative;
+  left: 170px;
+}
+.btn-sign-in {
+  position: relative;
+  left: 190px;
+}
